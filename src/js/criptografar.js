@@ -1,5 +1,5 @@
-function criptografar () {
-    let texto = inputText.value;
+function criptografar (input) {
+    let texto = input;
     let characters = texto.split('');
 
     for (var i = 0; i < characters.length; i++) {

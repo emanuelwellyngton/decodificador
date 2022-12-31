@@ -1,5 +1,5 @@
-function descriptografar () {
-    let texto = inputText.value;
+function descriptografar (input) {
+    let texto = input;
 
     texto = texto.replace(/enter/g, 'e');
     texto = texto.replace(/imes/g, 'i');

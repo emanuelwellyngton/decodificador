@@ -5,11 +5,9 @@ const resultArea = document.querySelector("#result-area");
 const result = document.querySelector('.result');
 
 btnCriptografar.addEventListener("click", () => {
-    resultArea.innerHTML = '';
-    criptografar();
+    trataInput('criptografar');
 });
 
 btnDescriptografar.addEventListener("click", () => {
-    resultArea.innerHTML = '';
-    descriptografar();
+    trataInput('descriptografar');
 });
