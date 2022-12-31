@@ -1,0 +1,58 @@
+#result-area {
+    background-color: var(--white);
+    padding: 32px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#result-title {
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--gray-500);
+}
+
+#result-text {
+    color: var(--gray-400);
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.result {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: var(--gray-400);
+    text-align: start;
+}
+
+.botao-copiar {
+    background-color: transparent;
+    color: var(--blue-alura);
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 400;
+    border: 1px solid var(--blue-alura);
+    border-radius: 24px;
+    padding: 24px;
+    width: 100%;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+    #result-area {
+        width: 30%;
+        position: absolute;
+        top: 40px;
+        left: 60vw;
+    }
+
+    #result-bg {
+        margin-bottom: 32px;
+    }
+}

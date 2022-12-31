@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pe-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Decodificador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/body.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/input-area.css">
+    <link rel="stylesheet" href="src/css/btns-area.css">
+    <link rel="stylesheet" href="src/css/result-area.css">
+</head>
+<body>
+    <header id="header">
+        <object id="logo" data="src/img/logo.svg" type="image/svg+xml"></object>
+    </header>
+    <main id="main">
+        <section id="input-area">
+            <textarea name="input-text" placeholder="Digite seu texto" id="input-text" cols="30" rows="10"></textarea>
+            <span id="disclamer">
+                <object data="src/img/disclame.svg" type="image/svg+xml"></object>
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </span>
+            <div id="btns-area">
+                <button class="btns" id="btn-criptografar">Criptografar</button>
+                <button class="btns" id="btn-descriptografar">Descriptografar</button>
+            </div>
+        </section>
+        <section id="result-area">
+            <div id="result-area_elements">
+                <object id="result-bg" data="src/img/High quality products 1 1.svg" type="image/svg+xml"></object>
+                <h3 id="result-title">Nenhuma mensagem encontrada</h3>
+                <p id="result-text">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </section>
+    </main>
+    <script src="src/js/main.js"></script>
+    <script src="src/js/criptografar.js"></script>
+    <script src="src/js/descriptografar.js"></script>
+    <script src="src/js/show-result.js"></script>
+    <script src="src/js/clipboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+#btns-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.btns {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    padding: 24px 0;
+    border-radius: 24px;
+    border: none;
+}
+
+#btn-criptografar {
+    color: var(--white);
+    background-color: var(--blue-alura);
+    margin-bottom: 20px;
+}
+
+#btn-descriptografar {
+    color: var(--blue-alura);
+    background-color: transparent;
+    border: 1px solid var(--blue-alura);
+}
+
+@media screen and (min-width: 600px) {
+    #btns-area {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 64px;
+    }
+
+    .btns {
+        width: 45%;
+    }
+
+    #btn-criptografar {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #btns-area {
+        margin-bottom: 0;
+    }
+
+    .btns {
+        cursor: pointer;
+    }
+}

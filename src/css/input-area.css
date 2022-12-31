@@ -1,0 +1,61 @@
+#input-area {
+    margin: 80px 0 64px;
+}
+
+#input-text {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    height: 300px;
+    border: none;
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--blue-alura);
+    resize: none;
+    margin-bottom: 64px;
+}
+
+#input-text::placeholder {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: var(--blue-alura);
+    opacity: 1;
+}
+
+#input-text:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+#disclamer {
+    align-items: center;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+#disclamer p {
+    color: var(--disclaimer-color);
+    font-size: 12px;
+    line-height: 150%;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+@media screen and (min-width: 600px) {
+    #input-area {
+        margin: 120px 0 0;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #input-area {
+        width: 60%;
+        margin-top: 80px;
+    }
+
+    #input-text {
+        height: 40vh;
+        width: 90%;
+    }
+}
