@@ -48,6 +48,12 @@
     cursor: pointer;
 }
 
+.botao-copiar.active {
+    color: var(--gray-400);
+    border-color: var(--gray-400);
+    transition: 2s;
+}
+
 @media screen and (min-width: 900px) {
     #result-area {
         width: 30%;
